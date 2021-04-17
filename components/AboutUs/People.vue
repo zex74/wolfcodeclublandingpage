@@ -60,7 +60,7 @@ export default {
                 font-size: 50px;
                 display: inline-block;
                 margin-top: 50px;
-                color: #EBFF00;
+                color: #F29B30;
                 opacity: 0;
                 transition: all .3s ease-in-out;
 
@@ -74,7 +74,7 @@ export default {
                     position: absolute;
                     width: 30px;
                     height: 4px;
-                    background: #EBFF00;
+                    background: #F29B30;
                     top: 15px;
                     left: 10px;
                     transition: all .3s ease-in-out;

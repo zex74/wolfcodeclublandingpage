@@ -49,7 +49,7 @@ export default {
             }
         }
         &.selected{
-            border: 4px solid #EBFF00;
+            border: 4px solid #F29B30;
             .desc{
                 background: #EBFF0080;
             }

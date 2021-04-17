@@ -4,7 +4,7 @@
     <side-nav :extended="navigation" @sideNav="changeNav" @closeNav="navigation = false"/>
     <nuxt/>
     <footer-cont/>
-    <overlay v-if="people || form.show || notification.show"/>
+    <!-- <overlay v-if="people || form.show || notification.show"/> -->
     <people-details :people="people"/>
     <mail-form :mail="form"/>
     <notification :not="notification" @closeNot="closeNot"/>
@@ -194,6 +194,7 @@ h1, h2 {
 }
 p, a, span, h3, li, q, label, input, textarea{
   font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Montserat', sans-serif; */
   font-size: 18px;
 }
 .button--green {

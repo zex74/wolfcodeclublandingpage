@@ -100,7 +100,7 @@ export default {
 
         }
         .head{
-            background: #EBFF00;
+            background: #F29B30;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-bottom: 4px solid #fdfdfd;
@@ -159,7 +159,7 @@ export default {
                 display: block;
                 text-align: center;
                 padding: 0 20px;
-                color: #EBFF00;
+                color: #F29B30;
                 height: 100px;
             }
         }
@@ -171,7 +171,7 @@ export default {
         h3{
             font-weight: lighter;
             font-size: 36px;
-            color: #EBFF00;
+            color: #F29B30;
         }
         p{
             color: #fdfdfd;

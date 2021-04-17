@@ -68,9 +68,9 @@ export default {
         background: #6f6f6f;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
-        border-right: 2px solid #EBFF00;
-        border-top: 2px solid #EBFF00;
-        border-bottom: 2px solid #EBFF00;
+        border-right: 2px solid #F29B30;
+        border-top: 2px solid #F29B30;
+        border-bottom: 2px solid #F29B30;
         transition: all .3s ease-in-out;
         z-index: 1;
         &.extend{
@@ -120,7 +120,7 @@ export default {
                 transform: rotate(180deg);
                 padding-left: 20px;
                 padding-right: 0;
-                color: #EBFF00;
+                color: #F29B30;
             }
         }
 

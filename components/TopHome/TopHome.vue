@@ -27,8 +27,9 @@
         </client-only>
         <!-- <img :src="require('@/assets/WieQuee-logo.svg')" alt=""> -->
         <!-- <img :src="require('@/assets/logo.png')" alt=""> -->
-        <h1>WolfCodeClub</h1>
-        <p>Club width private members</p>
+        
+        <!-- <h1>WolfCodeClub</h1>
+        <p>Club width private members</p> -->
         <br>
         <vue-typed-js :strings="['Web Application Development', 'Mobile Application Development', 'Desktop Application Development']" :loop="true">
             <h3>What we do? <br> <span class="typing"></span></h3>
@@ -62,6 +63,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+
     .home-top{
         position: relative;
         margin: 0 auto;
@@ -102,6 +104,7 @@ export default {
         .desktop{
             display: block;
         }
+       
         @media only screen and (max-width: 768px) {
             .mobile{
                 display: block;

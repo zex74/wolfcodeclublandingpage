@@ -1,7 +1,7 @@
 <template>
     <div class="menu-nav" :class="extended ? 'extended' : ''" v-click-outside="emitClose">
         <div class="logo">
-            <img :src="require('@/assets/logo.png')" alt="">
+            <img :src="require('@/assets/logo.svg')" alt="WolfCodeClub">
         </div>
         <div class="items-nav">
             <article v-for="(item, index) in nav" :key="index" @click="scrollToEl(item.short)">
@@ -59,7 +59,7 @@ export default {
         padding-top: 120px;
         z-index: 10;
         box-shadow: 0px 30px 20px rgba(0,0,0,0.10196);
-        border-left: 2px solid #EBFF00;
+        border-left: 2px solid #F29B30;
         .logo{
             // border-top: 2px solid #EBFF00;
             width: 250px;
@@ -89,7 +89,7 @@ export default {
 
                 }
                 &:hover {
-                    background: #EBFF00;
+                    background: #F29B30;
                     padding-left: 35px;
                     span{
                         font-weight: bold;

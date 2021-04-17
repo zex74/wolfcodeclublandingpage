@@ -44,7 +44,7 @@ export default {
         padding: 100px 0 150px 0;
         background: linear-gradient(#6f6f6f, darken(#6f6f6f, 30%));
         z-index: 2;
-        border-top: 2px solid #EBFF00;
+        border-top: 2px solid #F29B30;
         box-shadow: 0px 0px 20px 10px #00000030;
 
         @media only screen and (max-width: 786px) {
@@ -191,7 +191,7 @@ export default {
             margin-right: -50px;
             border-top-left-radius: 75px;
             border-bottom-left-radius: 75px;
-            background: #EBFF00;
+            background: #F29B30;
             float: left;
             @media only screen and (max-width: 900px) {
                 float: none;
@@ -211,7 +211,7 @@ export default {
             height: 150px;
             border-top-right-radius: 75px;
             border-bottom-right-radius: 75px;
-            background: #EBFF00;
+            background: #F29B30;
             float: left;
 
             @media only screen and (max-width: 900px) {

@@ -50,7 +50,7 @@ export default {
 <style lang="scss" scoped>
     .footer{
         vertical-align: top;
-        border-top: 2px solid #EBFF00;
+        border-top: 2px solid #F29B30;
         padding: 50px;
         width: 100%;
         border-top-left-radius: 50px;

@@ -89,18 +89,18 @@ export default {
 }
 @keyframes borderHigh {
   0% {background: transparent;}
-  50% {background: #EBFF00;}
+  50% {background: #F29B30;}
   100% {background: transparent;}
 }
 @keyframes borderHighW {
   0% {background: #fdfdfd;}
-  50% {background: #EBFF00;}
+  50% {background: #F29B30;}
   100% {background: #fdfdfd;}
 }
 @keyframes borderHighB {
-  0% {width: 100px; background: #EBFF00}
+  0% {width: 100px; background: #F29B30}
   50% {width: 200px; background: #7ec50f}
-  100% {width: 100px; background: #EBFF00}
+  100% {width: 100px; background: #F29B30}
 }
 
 
@@ -147,7 +147,7 @@ export default {
         height: 48px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
-        background: #EBFF00;
+        background: #F29B30;
         text-transform: uppercase;
         &.toreq{
             animation-name: borderHighB;

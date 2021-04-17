@@ -122,9 +122,9 @@ export default {
             color: #fdfdfd;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
-            border-top: 2px solid #EBFF00;
-            border-bottom: 2px solid #EBFF00;
-            border-right: 2px solid #EBFF00;
+            border-top: 2px solid #F29B30;
+            border-bottom: 2px solid #F29B30;
+            border-right: 2px solid #F29B30;
             a{
                 outline: none;
                 display: block;
@@ -134,7 +134,7 @@ export default {
                 transition: all .3s ease-in-out;
                 padding: 20px;
                 color: #6F6F6F;
-                background: #EBFF00;
+                background: #F29B30;
                 border: none;
                 border-radius: 40px;
                 width: 100%;
@@ -166,7 +166,7 @@ export default {
             object-fit: contain;
         }
         h3{
-            border-bottom: 3px solid #EBFF00;
+            border-bottom: 3px solid #F29B30;
             padding-bottom: 20px;
             margin-bottom: 20px;
         }
@@ -260,9 +260,9 @@ export default {
                 color: #fdfdfd;
                 border-bottom-left-radius: 30px;
                 border-bottom-right-radius: 30px;
-                border-top: 2px solid #EBFF00;
-                border-bottom: 2px solid #EBFF00;
-                border-right: 2px solid #EBFF00;
+                border-top: 2px solid #F29B30;
+                border-bottom: 2px solid #F29B30;
+                border-right: 2px solid #F29B30;
                 margin: 0 -30px -30px -30px;
                  a{
                     outline: none;
@@ -273,7 +273,7 @@ export default {
                     transition: all .3s ease-in-out;
                     padding: 20px;
                     color: #6F6F6F;
-                    background: #EBFF00;
+                    background: #F29B30;
                     border: none;
                     border-radius: 28px;
                     width: 100%;
@@ -287,7 +287,7 @@ export default {
                 h3{
                     display: inline-block;
                     font-size: 90px;
-                    border-right: 3px solid #EBFF00;
+                    border-right: 3px solid #F29B30;
                     border-bottom: 3px solid transparent;
                     padding-right: 10px;
                     height: 110px;

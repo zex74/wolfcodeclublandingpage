@@ -12,11 +12,11 @@
                 <span class="line-three"></span>
             </div>
         </article>
-        <article class="contact-us" @click="triggerForm" :class="mail.show ? 'opened' : ''">
+        <!-- <article class="contact-us" @click="triggerForm" :class="mail.show ? 'opened' : ''">
             <div class="menu">
                 <p><i class="fas fa-plus"></i>Get In Touch</p>
             </div>
-        </article>
+        </article> -->
     </nav>
 </template>
 <script>
@@ -52,7 +52,7 @@ export default {
         width: 100%;
         height: 100px;
         background-color: #fdfdfd;
-        border-bottom: 1px solid #EBFF00;
+        border-bottom: 1px solid #F29B30;
         box-shadow: 0px 30px 20px rgba(0,0,0,0.10196);
         transition: all 0.5s ease-in-out;
         .contact-us{
@@ -76,21 +76,21 @@ export default {
             }
             &:hover{
                 background-color: darken($color: #fdfdfd, $amount: 10);
-                border-bottom: 1px solid #EBFF00;
+                border-bottom: 1px solid #F29B30;
 
             }
             &.opened, &.opened:focus{
                 background: #6f6f6f;
                 border-bottom: 1px solid #6f6f6f;
                 z-index: 20;
-                color: #EBFF00;
+                color: #F29B30;
                 i{
                     transform: rotate(45deg);
                 }
                 &:hover{
                     background: #6f6f6f;
-                    border-bottom: 1px solid #EBFF00;
-                    color: #EBFF00;
+                    border-bottom: 1px solid #F29B30;
+                    color: #F29B30;
 
                 }
             }
@@ -153,7 +153,7 @@ export default {
                 }
                 .line-two{
                     width: 50px;
-                    background-color: #EBFF00;
+                    background-color: #F29B30;
                 }
                 .line-three{
                     background-color: #B2B200;
@@ -174,7 +174,7 @@ export default {
                 top: -70px;
             }
             img{
-                height: 50px;
+                height: 40px;
                 margin: 10px;
             }
         }

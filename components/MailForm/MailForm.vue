@@ -158,7 +158,7 @@ export default {
                 display: block;
                 border: none;
                 border-radius: 10px;
-                background-color: #EBFF00;
+                background-color: #F29B30;
                 color: #6f6f6f;
                 text-align: center;
                 padding: 10px;
@@ -195,11 +195,11 @@ export default {
                 color: #fdfdfd;
                 border-bottom-left-radius: 0;
                 a{
-                    color: #EBFF00;
+                    color: #F29B30;
 
                 }
                 h2{
-                    color: #EBFF00;
+                    color: #F29B30;
                 }
                 .social{
                     a{
