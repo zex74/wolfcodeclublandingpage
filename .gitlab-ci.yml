@@ -1,0 +1,13 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  only:
+      - master
+  script:
+      - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
+      - eval $(ssh-agent -s)
+      - ssh-add <(echo "$SSH_PRIVATE_KEY")
+      - mkdir -p ~/.ssh
+      - ssh-keyscan -H 165.22.20.233 >> ~/.ssh/known_hosts
+      - ssh -o StrictHostKeyChecking=no root@165.22.20.233 "cd /var/www/wiequee.com && git stash && git pull && npm install && npm run build && pm2 reload all"
