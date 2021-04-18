@@ -1,7 +1,9 @@
 <template>
     <div class="portfolio-form">
-        <div class="portfolios" :class="high ? 'highlight' : ''">
-            <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected" @selectPort="selectPort"/>
+        <!-- <div class="portfolios" :class="high ? 'highlight' : ''"> -->
+        <div class="portfolios">
+            <!-- <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected" @selectPort="selectPort"/> -->
+            <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected"  />
         </div>
         <div class="mail" :class="tomail ? 'highlight' : ''">
             <input name="mail" type="Mail" v-model="email" placeholder="Type ypur e-mail">
@@ -16,9 +18,9 @@ export default {
     data () {
         return {
             portfolios: [
-                {name: 'Front End', img: 'be.JPG'},
-                {name: 'Back End', img: 'fe.jpeg'},
-                {name: 'Mobile', img: 'mob.jpeg'}
+                {name: 'Step 1', img: 'video1.mp4'},
+                {name: 'Step 2', img: 'video1.mp4'},
+                {name: 'Step 3', img: 'video1.mp4'}
             ],
             selected: [],
             email: ''

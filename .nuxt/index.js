@@ -11,7 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_webfontloader_be0f0572 from 'nuxt_plugin_webfontloader_be0f0572' // Source: .\\webfontloader.js (mode: 'client')
+import nuxt_plugin_webfontloader_16909e3d from 'nuxt_plugin_webfontloader_16909e3d' // Source: .\\webfontloader.js (mode: 'client')
 import nuxt_plugin_typeWritter_4bffb34b from 'nuxt_plugin_typeWritter_4bffb34b' // Source: ..\\plugins\\typeWritter (mode: 'all')
 import nuxt_plugin_particlesPlugin_44ce120a from 'nuxt_plugin_particlesPlugin_44ce120a' // Source: ..\\plugins\\particlesPlugin (mode: 'client')
 
@@ -152,8 +152,8 @@ async function createApp (ssrContext) {
 
   // Plugin execution
 
-  if (process.client && typeof nuxt_plugin_webfontloader_be0f0572 === 'function') {
-    await nuxt_plugin_webfontloader_be0f0572(app.context, inject)
+  if (process.client && typeof nuxt_plugin_webfontloader_16909e3d === 'function') {
+    await nuxt_plugin_webfontloader_16909e3d(app.context, inject)
   }
 
   if (typeof nuxt_plugin_typeWritter_4bffb34b === 'function') {

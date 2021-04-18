@@ -1,10 +1,10 @@
 <template>
     <div class="about-section" id="about">
         <div class="logo">
-            <img :src="require('@/assets/WieQuee-logo.svg')" alt="WieQuee">
+            <img :src="require('@/assets/desktop.svg')" alt="WieQuee">
         </div>
-        <h3>Who are we</h3>
-        <h2>Meet the team</h2>
+        <h3>Ko smo mi!</h3>
+        <h2>Upoznajte mentore</h2>
         <div class="team">
             <div class="team-box">
                 <people v-for="(people, index) in team" :key="index" :people="people"/>
@@ -19,6 +19,15 @@ export default {
     data () {
         return {
             team: [
+                {
+                  img: 'zeljko.jpg',
+                    name: 'Zeljko Lazarevic',
+                    title: 'Founder & Software developer',
+                    moto: 'Life without dreams is not life... Dream without goals is just a dream',
+                    birthday: '1974-07-09',
+                    about: 'Svaki covek treba da ima jedan veliki cilj. Put ka njemu ce biti izazovan i maglovit. Put mozemo menjati, ali pravac ne smemo nikada. Kada krenes ka uspehu, okolina ce dati sve od sebe da ostanes u rupi zajedno sa njima i u dusi ce te mrzeti jer si se odvazio da budes bolji od drugih. Moras ici svojim putem, a kada uspes vrati se da im pomognes i tada, zapamti TADA ce te voleti...',
+                    skills: ['js', 'react', 'vue', 'nuxt', 'node', 'express', 'sass', 'mysql']
+                },
                 {
                     img: 'LL.jpeg',
                     name: 'Lazar Lazarevic',

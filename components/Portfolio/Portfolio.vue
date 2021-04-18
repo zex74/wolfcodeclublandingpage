@@ -1,17 +1,44 @@
 <template>
     <div class="portfolio-container" id="portfolio">
         <div class="logo">
-            <img :src="require('@/assets/WieQuee-logo.svg')" alt="WieQuee">
+            <img :src="require('@/assets/desktop.svg')" alt="">
         </div>
-        <h3>What we've done</h3>
-        <h2>Our Portfolio</h2>
-        <p>Follow the 3 steps and get our portfolio!</p>
+        <h3>Kako izgleda ucenje programiranja sa nama!</h3>
+        <h2>Sta je potrebno da uradis da bi sebe pripremio za zivot vredan zivljenja!</h2>
+        <p>Imas tri stepa ispred sebe za koje cemo ti mi pomoci da ih prodjes brzo i lako!</p>
         <div class="steps">
-            <div class="banner-first"></div>
-            <div class="step step1" @click="high = !high"><span>Select portfolios</span></div>
-            <div class="step step2" @click="tomail = !tomail"><span>Fill in your email</span></div>
-            <div class="step step3" @click="toreq = !toreq"><span>Click "request"</span></div>
-            <div class="banner-last"></div>
+          <p class="steps_1">Step 1</p>
+          <ul class="steps_list">
+            <li class="steps_list_item">Prva stvar je da podesimo zajednicko radno okruzenje</li>
+            <li class="steps_list_item">Uci se na posebnoj platformi gde ces dobiti linkove ka lekcijama po redosledu za ucenje</li>
+            <li class="steps_list_item">Tu ces imati mogucnost da budes u stalnom kontaktu sa svojim mentorima</li>
+            <li class="steps_list_item">Bice ti objasnjeno sta je bitno da se nauci a jos vaznije sta NE TREBA da ucis</li>
+            <li class="steps_list_item">Pored standardnog pracenja raznih tutorijala dobijaces i razne igrice, kvizove i testove koje ce rapidno da te ubrzaju</li>
+            <li class="steps_list_item">Posle odredjenog bloka lekcija i testova radimo zavrsni test koji je potreban da se predje u sledeci step</li>
+          </ul>
+          <p class="steps_1">Step 2</p>
+           <ul class="steps_list">
+            <li class="steps_list_item">Do sada smo naucili osnove HTML CSS i vec imamo prve sajtove iza sebe</li>
+            <li class="steps_list_item">Ovde se odvajamo na kreativne koji zele da se bave dizajnom i njih usmeravamo na ucenje UI/UX dizajna</li>
+            <li class="steps_list_item">To je idealna prilika za kreativne devojke koje mogu jako dobro da se ostvare u ovom vrlo trazenom delu IT industrije</li>
+            <li class="steps_list_item">Manje kreativni ili vise skloni logici krecu sa ucenjem osnova Java Scripta.</li>
+            <li class="steps_list_item">Ovde upadas u tim koji ce mentori da sastave i da ti obezbede prvi live projekat na kome ces raditi</li>
+            <li class="steps_list_item">Sa svojim timom ucestvujes u razradi projekta kao i raspodeli taskova koji ce trebati da se urade</li>
+            <li class="steps_list_item">Ovde ces pomirisati zivot programera i IT zajednice, gde svako svakome pomaze, a pocinje jos nesto da mirise :) </li>
+            <li class="steps_list_item">Ovde vec pocinjemo polako sa radom na realnim projektima i vezbom ozbiljnijih stvari</li>
+            <li class="steps_list_item">Razni testovi i misljenja mentora ce biti potrebno za prelaz u Step 3</li>
+          </ul>
+          <p class="steps_1">Step 3</p>
+           <ul class="steps_list">
+            <li class="steps_list_item">E ovde... Dobro dosli u zemlju cuda.. </li>
+            <li class="steps_list_item">Ovde uveliko radis sa onim sto si naucio a pored toga ucis i nove stvari</li>
+            <li class="steps_list_item">Imas izgradjenu svoju ekipu sa kojom radis i mi vas ucimo kako da sa znanjem koje imate krenete ozbiljno da zaradjujete</li>
+            <li class="steps_list_item">Nasi mentori ce od svojih studenata birati vredne i talentovane i za njih imamo posebne planove</li>
+            <li class="steps_list_item">U ovom stepu se otvaraju mogucnosti za zaradu sa strane koju pravite sa svojim timom, i za zaradu za rad sa nama</li>
+            <li class="steps_list_item">I na kraju te ucimo svim mogucnostima za online zaradu, jer ko vise zna o tome nego mi iz IT zajednice koji to i pravimo :)</li>
+            <li class="steps_list_item">Na kraju ces trebati nesto i sam da uradis, a to je da sednes negde sa svojim laptopom i da kreiras svoju buducnost</li>
+          </ul>
+           
         </div>
         <port-form :high="high" @removeHigh="high = false" :tomail="tomail" @removeTomail="tomail = false" :toreq="toreq" @removeToreq="toreq = false"/>
     </div>
@@ -86,8 +113,21 @@ export default {
             color: #fdfdfd;
         }
         .steps{
+          width: 300px;
             padding-top: 50px;
+            color: white;
         }
+        .steps_list{
+          padding: 1rem;
+        }
+        .steps_list_item{
+          padding: 0.5rem;
+        }
+
+        .steps_1{
+          font-size: 26px;
+        }
+        
         .step{
             position: relative;
             z-index: 12;

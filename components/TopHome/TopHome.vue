@@ -30,6 +30,12 @@
         
         <!-- <h1>WolfCodeClub</h1>
         <p>Club width private members</p> -->
+        <div class="video">
+          <section class="video_section">
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BgI0oExkl20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" :src="require('@/assets/video/video1.mp4')" frameborder="0"></iframe> -->
+          </section>
+        </div>
         <br>
         <vue-typed-js :strings="['Web Application Development', 'Mobile Application Development', 'Desktop Application Development']" :loop="true">
             <h3>What we do? <br> <span class="typing"></span></h3>
@@ -80,6 +86,11 @@ export default {
         box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.18824);
         h1, h2{
             user-select: none;
+        }
+
+        .video{
+          // height: 100px;
+          z-index: 5;
         }
         .back{
             

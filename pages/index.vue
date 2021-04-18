@@ -1,10 +1,11 @@
 <template>
   <div class="">
     <!-- <services-nav :top="top"/> -->
-    <top-home @scrolled="scrollWeDo"/>
-    <we-do/>
+    <!-- <top-home @scrolled="scrollWeDo"/> -->
+    <!-- <we-do/> -->
     <about-us/>
     <portfolio/>
+    
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import ServicesNav from '~/components/Navigation/ServicesNav'
 import WeDo from '~/components/WeDo/WeDo'
 import AboutUs from '~/components/AboutUs/AboutUs'
 import Portfolio from '~/components/Portfolio/Portfolio'
+
 
 export default {
   data () {
@@ -29,6 +31,7 @@ export default {
     AboutUs,
     Portfolio,
     Logo
+    
   },
   beforeMount () {
     this.$root.$on('scroll-about', this.scrollAbout)

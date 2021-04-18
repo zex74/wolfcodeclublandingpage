@@ -1,6 +1,11 @@
 <template>
     <article class="port" v-if="port" @click="selectPort" :class="selected.includes(port.name) ? 'selected' : ''">
-        <img :src="require(`@/assets/${port.img}`)" alt="">
+        <!-- <img :src="require(`@/assets/video/${port.img}`)" alt=""> -->
+        <div class="video">
+          <section class="video_section">
+            <!-- <iframe width="230" height="200" :src="require(`@/assets/video/${port.img}`)" frameborder="0"></iframe> -->
+          </section>
+        </div>
         <div class="desc">
             <p>{{port.name}}</p>
         </div>
@@ -54,12 +59,12 @@ export default {
                 background: #EBFF0080;
             }
         }
-        &:hover{
-            .desc{
-                padding-top: 200px;
-                height: 242px;
-            }
-        }
+        // &:hover{
+        //     .desc{
+        //         padding-top: 200px;
+        //         height: 242px;
+        //     }
+        // }
     }
     
 </style>
