@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <!-- <services-nav :top="top"/> -->
-    <!-- <top-home @scrolled="scrollWeDo"/> -->
-    <!-- <we-do/> -->
+    <top-home @scrolled="scrollWeDo"/>
+    <we-do/>
     <about-us/>
     <portfolio/>
     

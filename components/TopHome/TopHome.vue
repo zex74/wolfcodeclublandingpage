@@ -33,7 +33,7 @@
         <div class="video">
           <section class="video_section">
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BgI0oExkl20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <!-- <iframe width="560" height="315" :src="require('@/assets/video/video1.mp4')" frameborder="0"></iframe> -->
+            <iframe width="560" height="315" :src="require('@/assets/video/video1.mp4')" frameborder="0"></iframe>
           </section>
         </div>
         <br>
