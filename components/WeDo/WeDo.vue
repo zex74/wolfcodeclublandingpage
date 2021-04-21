@@ -1,9 +1,9 @@
 <template>
 <div>
     <div class="wedo-content" id="WeDo">
-        <h1>Trazis kurs programiranja!</h1>
-        <h2>To znaci da brines o svojoj buducnosti</h2>
-        <p>Da, postoji kurs na kom ces u kratkom vremenskom periodu nauciti sve sto ti je potrebno za samostalan rad i poceti da zaradjujes dovoljno za sve sto zelis.</p>
+        <!-- <h1>RAZMISLI!</h1> -->
+        <!-- <h2>To znaci da brines o svojoj buducnosti</h2> -->
+        <!-- <p>Da, postoji kurs na kom ces u kratkom vremenskom periodu nauciti sve sto ti je potrebno za samostalan rad i poceti da zaradjujes dovoljno za sve sto zelis.</p> -->
         <article class="centered">
             <all-in-one/>
         </article>
