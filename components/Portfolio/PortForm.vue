@@ -5,14 +5,26 @@
             <!-- <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected" @selectPort="selectPort"/> -->
             <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected"  />
         </div>
-        <div class="mail" :class="tomail ? 'highlight' : ''">
+        <!-- <div class="mail" :class="tomail ? 'highlight' : ''">
             <input name="mail" type="Mail" v-model="email" placeholder="Type ypur e-mail">
             <span @click="doSubmit" :class="toreq ? 'toreq' : ''">Request</span>
+        </div> -->
+        <div class="prijava">
+          <p class="prijava_title">U mogucnosti smo da primimo samo odredjen broj studenata</p>
+          <p class="prijava_text">Mentorstvo i ucenje zapocinje uclanjenjem u nas klub</p>
+          <p class="prijava_text">Mesecna clanarina kluba je <span class="price">5000 dinara</span> </p>
+          <br>
+          <p class="prijava_text">Za studente koji se prijave preko studentskog parlamenta</p>
+          <p class="prijava_text">mesecna clanarina kluba je <span class="price">3000 dinara</span></p>
+          <br>
+          <contact-form />
         </div>
+        
     </div>
 </template>
 <script>
 import SinglePort from './SinglePort'
+import ContactForm from '../ContactForm/ContactForm'
 export default {
     name: 'PortForm',
     data () {
@@ -72,11 +84,30 @@ export default {
         }
     },
     components: {
-        SinglePort
+        SinglePort,
+        ContactForm
     }
 }
 </script>
 <style lang="scss" scoped>
+.prijava{
+  margin-top: 2rem;
+  color: #fff;
+}
+.prijava_btn{
+  margin: 1rem;
+  padding: 1rem;
+}
+.prijava_title{
+  font-size: 1.7rem;
+}
+.prijava_text{
+  font-size: 1.3rem;
+}
+.price{
+  font-size: 1.5rem;
+  color: #F29B30;
+}
 .portfolio-form {
     margin: 50px 0;
     .portfolios{
@@ -117,6 +148,7 @@ export default {
         color: #fdfddf;
     }
     input{
+      
         padding: 20px;
         outline: none;
         font-size: 18px;

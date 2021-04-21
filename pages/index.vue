@@ -5,10 +5,8 @@
     <we-do/>
     <about-us/>
     <portfolio/>
-    
   </div>
 </template>
-
 <script>
 import Logo from '~/components/Logo.vue'
 import TopHome from '~/components/TopHome/TopHome'
@@ -16,7 +14,6 @@ import ServicesNav from '~/components/Navigation/ServicesNav'
 import WeDo from '~/components/WeDo/WeDo'
 import AboutUs from '~/components/AboutUs/AboutUs'
 import Portfolio from '~/components/Portfolio/Portfolio'
-
 
 export default {
   data () {
@@ -31,7 +28,6 @@ export default {
     AboutUs,
     Portfolio,
     Logo
-    
   },
   beforeMount () {
     this.$root.$on('scroll-about', this.scrollAbout)

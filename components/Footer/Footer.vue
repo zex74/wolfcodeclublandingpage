@@ -1,23 +1,33 @@
 <template>
     <footer class="footer">
         <article class="logo">
-            <img :src="require('@/assets/wiequee-full.svg')" alt="">
+            <img :src="require('@/assets/logo.svg')" alt="">
         </article>
         <article class="legal">
             <h3>Menu</h3>
+           
             <span v-for="(na, index) in nav" :key="index" @click="scrollToEl(na.short)">{{na.name}}</span>
         </article>
         <article class="social">
             <h3>Contact us</h3>
-            <a href="" @click="triggerForm"><i class="fas fa-envelope"></i></a>
+            <p>wolfcodeclub@gmail.com</p>
+            <p>www.wolfcodeclub.com</p>
+            <br>
+            <p>PODRSKA</p>
+            <p>wolfcodeclub.podrska@gmail.com</p>
+            
+            <!-- <a href="" @click="triggerForm"><i class="fas fa-envelope"></i></a>
             <a href=""><i class="fab fa-facebook-f"></i></a>
             <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a> -->
         </article>
+        
         <div class="copyright"><span>©</span><span style="padding-right: 5px">{{new Date().getFullYear()}}</span> <span>WolfCodeClub</span></div>
+      
     </footer>
 </template>
 <script>
+
 export default {
     name: 'FooterCont',
     data () {
@@ -161,4 +171,5 @@ export default {
     .copyright{
         text-align: center;
     }
+
 </style>
