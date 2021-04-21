@@ -20,17 +20,17 @@ export default {
         return {
             team: [
                 {
-                  img: 'zeljko.jpg',
-                    name: 'Zeljko Lazarevic',
+                  img: 'zex.png',
+                    name: 'Željko Lazarević',
                     title: 'Founder & Software developer',
                     moto: 'Life without dreams is not life... Dream without goals is just a dream',
                     birthday: '1974-07-09',
-                    about: 'Svaki covek treba da ima jedan veliki cilj. Put ka njemu ce biti izazovan i maglovit. Put mozemo menjati, ali pravac ne smemo nikada. Kada krenes ka uspehu, okolina ce dati sve od sebe da ostanes u rupi zajedno sa njima i u dusi ce te mrzeti jer si se odvazio da budes bolji od drugih. Moras ici svojim putem, a kada uspes vrati se da im pomognes i tada, zapamti TADA ce te voleti...',
+                    about: 'I am founder of WolfCodeClub & completely self-taught, with a lot left to learn–and in teaching myself tech skills, I uncovered a passion for teaching others. Today, I’m driven by the goal of making education affordable and accessible to all.',
                     skills: ['js', 'react', 'vue', 'nuxt', 'node', 'express', 'sass', 'mysql']
                 },
                 {
                     img: 'LL.jpeg',
-                    name: 'Lazar Lazarevic',
+                    name: 'Lazar Lazarević',
                     title: 'Software developer',
                     moto: 'Begin each day like it has it\'s own purpose - with a coffee!',
                     birthday: '1986-05-08',
@@ -39,7 +39,7 @@ export default {
                 },
                 {
                     img: 'ZM.jpg',
-                    name: 'Zeljko Marenovic',
+                    name: 'Željko Marenović',
                     title: 'Software developer',
                     moto: 'Think about bad yesterday to have better now.',
                     birthday: '1990-07-27',
@@ -48,7 +48,7 @@ export default {
                 },
                 {
                     img: 'MD.jpg',
-                    name: 'Marko Djordjevic',
+                    name: 'Marko Djordjević',
                     title: 'Software developer',
                     moto: 'Do not ruin today by thinking about bad yesterday',
                     birthday: '1985-03-12',
@@ -57,7 +57,7 @@ export default {
                 },
                 {
                     img: 'DG.jpeg',
-                    name: 'Djordje Grujovic',
+                    name: 'Djordje Grujović',
                     title: 'Software developer',
                     moto: 'If you cannot do great things, do small things in a great way!',
                     birthday: '1990-05-13',

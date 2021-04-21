@@ -6,7 +6,7 @@
     <footer-cont/>
     <!-- <overlay v-if="people || form.show || notification.show"/> -->
     <people-details :people="people"/>
-    <mail-form :mail="form"/>
+    <!-- <mail-form :mail="form"/> -->
     <notification :not="notification" @closeNot="closeNot"/>
   </div>
 </template>

@@ -202,7 +202,7 @@
         </div> -->
         <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="bold_text">Sta mi očekujemo od tebe..</p>
+                <p class="bold_text">Šta mi očekujemo od tebe..</p>
                 <ul>
                     <li>da stvarno želiš da naučiš programiranje</li>
                     <li class="text">da se zalažeš za svoje znanje</li>
@@ -359,9 +359,9 @@
                     samo da znaš 5 godina je previše ako se odlučiš
                     za ovaj put</p>
                     <p class="text"><span class="text bold_text">MAX 2-3 godine</span> da sve što si napisao bude rešeno... </p>
-                    <p class="text">Potrudi se, budi sa nama 4-5 meseci.</p>
+                    <p class="text">Potrudi se, budi sa nama 4-6 meseci.</p>
                     <p class="text">Posle toga radi, stiči iskustvo i zarađuj nekih godinu 
-                      dana i sada si u <span class="text bold_text">STEPU 4...</span></p>
+                      dana i sada si u <span class="text bold_text">STEPU 4...</span> Njega kreiraš sam... <span class="text bold_text">Good Lock :)</span></p>
                     <p class="text"></p>
                 
                 </div>
@@ -374,7 +374,7 @@
         </div> -->
         <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="text">"Na kraju, zamolićemo te da uradiš nešto. Idi na ono isto mesto sa početka priče, 
+                <p class="text">Na kraju, zamolićemo te da uradiš nešto. Idi na ono isto mesto sa početka priče, 
                   sedi, stavi sebi u krilo taj laptop od 3 000 evrića i kreiraj sebi budućnost kakvu zamišljaš.</p>
                 <p class="text">Henri Ford je lepo rekao " Ako misliš da možeš i ako misliš da ne možeš- oba puta si 
                   u pravu. ", a znamo da možeš!</p>

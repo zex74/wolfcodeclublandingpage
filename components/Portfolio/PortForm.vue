@@ -3,19 +3,20 @@
         <!-- <div class="portfolios" :class="high ? 'highlight' : ''"> -->
         <div class="portfolios">
             <!-- <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected" @selectPort="selectPort"/> -->
-            <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected"  />
+            <!-- <single-port v-for="(port, index) in portfolios" :key="index" :port="port" :selected="selected"  /> -->
         </div>
         <!-- <div class="mail" :class="tomail ? 'highlight' : ''">
             <input name="mail" type="Mail" v-model="email" placeholder="Type ypur e-mail">
             <span @click="doSubmit" :class="toreq ? 'toreq' : ''">Request</span>
         </div> -->
         <div class="prijava">
-          <p class="prijava_title">U mogucnosti smo da primimo samo odredjen broj studenata</p>
-          <p class="prijava_text">Mentorstvo i ucenje zapocinje uclanjenjem u nas klub</p>
-          <p class="prijava_text">Mesecna clanarina kluba je <span class="price">5000 dinara</span> </p>
+          <p class="prijava_title">U mogućnosti smo da primimo samo određen broj studenata</p>
+          <br>
+          <p class="prijava_text">Mentorstvo i učenje započinje učlanjenjem u naš klub</p>
+          <p class="prijava_text">Mesečna članarina kluba je <span class="price">5000 dinara</span> </p>
           <br>
           <p class="prijava_text">Za studente koji se prijave preko studentskog parlamenta</p>
-          <p class="prijava_text">mesecna clanarina kluba je <span class="price">3000 dinara</span></p>
+          <p class="prijava_text">mesečna članarina kluba je <span class="price">3000 dinara</span></p>
           <br>
           <contact-form />
         </div>

@@ -4,17 +4,17 @@
             <img :src="require('@/assets/logo.svg')" alt="">
         </article>
         <article class="legal">
-            <h3>Menu</h3>
+            <!-- <h3>Menu</h3> -->
            
-            <span v-for="(na, index) in nav" :key="index" @click="scrollToEl(na.short)">{{na.name}}</span>
+            <!-- <span v-for="(na, index) in nav" :key="index" @click="scrollToEl(na.short)">{{na.name}}</span> -->
         </article>
         <article class="social">
             <h3>Contact us</h3>
             <p>wolfcodeclub@gmail.com</p>
-            <p>www.wolfcodeclub.com</p>
+            <p>www.wolfcodeclub.netlify.app</p>
             <br>
-            <p>PODRSKA</p>
-            <p>wolfcodeclub.podrska@gmail.com</p>
+            <!-- <p>PODRSKA</p>
+            <p>wolfcodeclub.podrska@gmail.com</p> -->
             
             <!-- <a href="" @click="triggerForm"><i class="fas fa-envelope"></i></a>
             <a href=""><i class="fab fa-facebook-f"></i></a>
