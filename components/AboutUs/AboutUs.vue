@@ -4,6 +4,7 @@
             <img :src="require('@/assets/desktop.svg')" alt="">
         </div>
         <h3>Ko smo mi!</h3>
+        
         <h2>Upoznajte mentore</h2>
         <div class="team">
             <div class="team-box">
