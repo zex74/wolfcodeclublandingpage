@@ -30,10 +30,10 @@
         
         <!-- <h1>WolfCodeClub</h1>
         <p>Club width private members</p> -->
-        <div class="video">
+        <div class="video_container">
           <section class="video_section">
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BgI0oExkl20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <iframe width="560" height="315" :src="require('@/assets/video/video1.mp4')" frameborder="0"></iframe>
+            <iframe class="video" :src="require('@/assets/video/video1.mp4')" frameborder="0"></iframe>
           </section>
         </div>
         <br>
@@ -87,10 +87,25 @@ export default {
         h1, h2{
             user-select: none;
         }
+        .video_container{
+          //  background-color: red;
+         width: 80%;
+          height: 50vh;
+          z-index: 5;
+        }
+        .video_section{
+         width: 100%;
+          height: 50vh;
+          margin: 1rem auto;
+          // z-index: 6;
+        }
 
         .video{
-          // height: 100px;
-          z-index: 5;
+           z-index: 6;
+          height: 100%;
+          width: 100%;
+          border-radius: 2rem;
+        
         }
         .back{
             
@@ -143,7 +158,7 @@ export default {
         position: absolute;
         display: block;
         bottom: 50px;
-        margin: 0 auto;
+        margin: -1rem auto;
         left: 0;
         right: 0;
         .cyrcle {

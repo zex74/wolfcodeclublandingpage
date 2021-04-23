@@ -1,7 +1,7 @@
 <template>
     <div class="about-section" id="about">
         <div class="logo">
-            <img :src="require('@/assets/desktop.svg')" alt="WieQuee">
+            <img :src="require('@/assets/desktop.svg')" alt="">
         </div>
         <h3>Ko smo mi!</h3>
         <h2>Upoznajte mentore</h2>

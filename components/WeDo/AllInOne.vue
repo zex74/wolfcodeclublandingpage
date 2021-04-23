@@ -365,6 +365,8 @@
                 </div>
       <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/logo.svg')" alt="">
+        <br>
+         <div class="text_line"></div>
 
         <!-- <div class="readmore" @click="changeShow(true)">
             <span>Read more</span>
@@ -372,6 +374,7 @@
         </div> -->
         <transition name="slide">
             <div class="extend" v-if="true">
+             
                 <p class="text">Na kraju, zamolićemo te da uradiš nešto. Idi na ono isto mesto sa početka priče, 
                   sedi, stavi sebi u krilo taj laptop od 3 000 evrića i kreiraj sebi budućnost kakvu zamišljaš.</p>
                 <p class="text">Henri Ford je lepo rekao " Ako misliš da možeš i ako misliš da ne možeš- oba puta si 
