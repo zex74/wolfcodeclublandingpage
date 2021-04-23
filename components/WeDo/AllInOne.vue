@@ -130,8 +130,8 @@
            u USA ili Evropi ili sada jako aktuelni <span class="bold_text">afiliate marketing</span>.</p>
         <p class="text">Ovi biznisi <span class="bold_text">zaradjuju dok spavaš, a njih učimo u stepu 3, samo da znaš. :) </span></p>
         <p class="text bold_text">SADA možemo da vidimo i KAKO...</p>
-
-         <div class="card" @mouseleave="changeShow(false)" id="AI1">
+    </div >
+     <div class="card" @mouseleave="changeShow(false)" id="AI1">
           <img :src="require('@/assets/fe.jpeg')" alt="">
           <br>
           <p class="text bold_text">A EVO I KAKO DA TO URADIMO</p>
@@ -156,7 +156,6 @@
           <p class="text"><span class="bold_text">Zvuči previše dobro? </span></p>
           <p class="text"><span class="bold_text">Tek ćeš se uveriti u to! </span></p>
          </div >
-    </div >
     <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/fe.jpeg')" alt="">
         <br>
@@ -254,8 +253,11 @@
                 <div class="text_line"></div>
                 <p class="text">Šta je potrebno da uradiš da sebe pripremiš za život vredan življenja?</p>
                 <p class="text">Imaš tri stepa ispred sebe, a uz pomoć naših mentora prelaziš ih brzo i lako.</p>
-                <p class="bold_text">Kako izgledaju stepovi? </p>
-                 <div class="card" @mouseleave="changeShow(false)" id="AI1">
+                <p class="bold_text">Kako izgledaju stepovi? </p>  
+            </div>
+        </transition>
+      </div >
+      <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <!-- <img :src="require('@/assets/fe.jpeg')" alt=""> -->
                   <br>
                   <p class="text bold_text">STEP 1</p>
@@ -336,10 +338,6 @@
                      <li class="text">Veruj da nije moguće pogrešiti, greška je samo ako odustaneš... </li>
                   </ul>
                 </div>
-            </div>
-          
-        </transition>
-      </div >
          <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <!-- <img :src="require('@/assets/fe.jpeg')" alt=""> -->
                   <br>

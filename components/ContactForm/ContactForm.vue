@@ -109,7 +109,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width: 50%;
+  width: 70%;
 }
 .message{
   background-color: grey;

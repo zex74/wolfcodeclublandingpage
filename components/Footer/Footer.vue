@@ -10,8 +10,10 @@
         </article>
         <article class="social">
             <h3>Contact us</h3>
+            <br>
+            <p>Korisnička podrška tel:</p>
+            <p>+381644566090</p>
             <p>wolfcodeclub@gmail.com</p>
-            <p>www.wolfcodeclub.netlify.app</p>
             <br>
             <!-- <p>PODRSKA</p>
             <p>wolfcodeclub.podrska@gmail.com</p> -->

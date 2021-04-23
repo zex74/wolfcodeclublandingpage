@@ -11,13 +11,14 @@
         </div> -->
         <div class="prijava">
           <p class="prijava_title">U mogućnosti smo da primimo samo određen broj studenata!</p>
+          <br>
           <p class="prijava_text">Nakon prijave poslaćemo Vam mail sa daljim uputstvima za pristup platformi</p>
           <br>
           <p class="prijava_text">Mentorstvo i učenje započinje učlanjenjem u naš klub</p>
           <p class="prijava_text">Mesečna članarina kluba je <span class="price">5000 dinara</span> </p>
           <br>
-          <p class="prijava_text">Za studente</p>
-          <p class="prijava_text">mesečna članarina kluba je <span class="price">3000 dinara</span></p>
+          <p class="prijava_text">Za studente:</p>
+          <p class="prijava_text">Mesečna članarina kluba je <span class="price">3000 dinara</span></p>
           <br>
           <contact-form />
         </div>
@@ -93,7 +94,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .prijava{
-  margin-top: 2rem;
+  padding: 1rem;
   color: #fff;
 }
 .prijava_btn{
