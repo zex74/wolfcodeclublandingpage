@@ -23,16 +23,16 @@
             placeholder="Message">
           </textarea>
           
-          <input type="submit" value="Prijava">
+          <input type="submit" value="Prijava" @click="showMessage(true)">
         </form>
-       <!-- <success-message /> -->
+        <p v-if="show" class="message">Uspešno ste se prijavili!</p>
+       
     </div>
 </template>
 
 <script>
 
 import emailjs from 'emailjs-com';
-import SuccessMessage from '../Modals/SuccessMessage'
 
 export default {
   name: 'ContactUs',
@@ -40,13 +40,18 @@ export default {
     return {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      show: false
+      
     }
   },
   methods: {
+    showMessage(e){
+      this.show = e
+    },
     sendEmail(e) {
       try {
-        emailjs.sendForm('service_8w410ca', 'template_z1uzrys', e.target, 'user_rRFrLAdrWonMOhok3ff0b', {
+        emailjs.sendForm('service_ahf42z6', 'template_ihah3ox', e.target, 'user_rRFrLAdrWonMOhok3ff0b', {
           name: this.name,
           email: this.email,
           message: this.meessage
@@ -61,11 +66,8 @@ export default {
       this.email = ''
       this.message = ''
     }
-  },
-   components: {
-        SuccessMessage
-    }
-   
+  }
+     
 }
 </script>
 
@@ -109,4 +111,14 @@ input[type=submit]:hover {
   padding: 20px;
   width: 50%;
 }
+.message{
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  
+}
+
 </style>

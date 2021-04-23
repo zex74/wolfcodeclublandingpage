@@ -284,8 +284,8 @@
                   <br>
                   <ul>
                     <li class="text">Do sada smo naučili osnove HTML-a, CSS-a i već imamo prve sajtove iza sebe</li>
-                    <li class="text">Ovde se odvajamo na kreativne koji želeda se bave dizajnom i njih usmeravamo
-                       na ucenje UI/UX dizajna</li>
+                    <li class="text">Ovde se odvajamo na kreativne koji žele da se bave dizajnom i njih usmeravamo
+                       na učenje UI/UX dizajna</li>
                     <li class="text">To je idealna prilika za kreativne devojke koje mogu jako dobro da se ostvare 
                     u ovom vrlo traženom delu IT industrije</li>
                     <li class="text">Manje kreativni ili vise skloni logici kreću sa učenjem osnova Java Scripta.</li>
