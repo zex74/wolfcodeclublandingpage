@@ -18,6 +18,7 @@
              negde u šumu ili pored nekog jezera, reke. Idi na neko mesto 
              gde možeš da čuješ samo svoje misli. Ugasi svoj raspali telefon, 
              opusti se i <span class="bold_text">razmisli</span>.</p>
+             <br>
              <img :src="require('@/assets/img/svg/mobile_user.svg')" alt="">
         </div>
        
@@ -67,6 +68,7 @@
                     <li class="text">Sada u svom raspalom telefonu otvori notes
                   u koji ćeš upisati odgovore na sva ova pitanja ali
                   da su onakvi kakvi bi želeo da budu pa i jače od toga.</li>
+                  <br>
                   <li><img :src="require('@/assets/img/svg/ideas.svg')" alt=""></li>
                     <li class="text">Daj sebi 5 godina da ih ostvariš.</li>
                     <li class="text">Daj sebi reč da će sve tvoje dugoročne odluke
@@ -167,6 +169,7 @@
           ne donosi znanja u praksi jer niste imali gde ni da pokušate da radite, a kamoli da vas neko<span class="bold_text"> mentoriše?</span></p>
           <p class="text">Ili ste guglali, istraživali, gledali videe koji vam pune glavu mnoštvom informacija sa kojima ne znate opet 
           ništa i samo vas zbunjuju?</p>
+          <br>
           <img :src="require('@/assets/img/svg/shared_goals.svg')" alt="">
           <p class="text">Upravo zbog metode<span class="bold_text"> mentor-materijal-praksa učenja, naš novi koncept</span>
           je novina u celoj IT zajednici. Ako pokažeš znanje na testovima i u radu na pravim projekatima, dobijaš i ponudu za 
@@ -201,6 +204,7 @@
            u jednom trenutku postaće ti naporno jer vidiš da ti ne ide samostalno.</p>
         <p class="text"> Rešili smo ti i taj problem tako što smo sadržaj koji će ti držati pažnju podelili na vise 
           koraka da bi i ti sam mogao da vidiš svoj napredak.</p>
+          <br>
           <img :src="require('@/assets/img/svg/stepping_up.svg')" alt="">
         <p class="text"><span class="bold_text">Kod po kod -  program</span>. I dok shvatiš šta se dešava već si programer spreman za rad, zaradu 
           i skroz neverovatan novi svet u kom napokon osećaš sigurnost. </p>
