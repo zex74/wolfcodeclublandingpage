@@ -103,9 +103,11 @@ export default {
 }
 .prijava_title{
   font-size: 1.7rem;
+  color: #fff;
 }
 .prijava_text{
   font-size: 1.3rem;
+  color: #fff;
 }
 .price{
   font-size: 1.5rem;

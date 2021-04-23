@@ -92,6 +92,7 @@ export default {
                 color: #fdfdfd;
                 p{
                     font-size: 28px;
+                    color: white;
                 }
             }
         }

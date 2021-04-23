@@ -30,7 +30,7 @@
         </div> -->
         <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="bold_text">Koji su trenutno tvoji kratkoročni izazovi</p>
+                <p class="text"><span class="bold_text">Koji su trenutno tvoji kratkoročni izazovi</span></p>
                 <ul>
                     <li>Roditelji se muče da ti pomognu da platiš studije</li>
                     <li class="text">Nikada dovoljno novca da platiš račune</li>
@@ -48,7 +48,7 @@
         </transition>
           <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="bold_text">Koji su tvoji dugoročni izazovi</p>
+                <p class="text"><span class="bold_text">Koji su tvoji dugoročni izazovi</span></p>
                 <ul>
                     <li>Treba upasti u onih 5% ljudi koji će kvalitetno živeti od svog faxa</li>
                     <li class="text">A šta je sa ostalim životnim izazovima? Čime se baviti i od čega ziveti ? <span class="bold_text"> razmisli</span>.</li>
@@ -60,10 +60,11 @@
                     <li class="text">Kako kupiti stan ili kuću ?</li>
                     <li class="text">Kako imati i vremena za sebe, svoj hobi, zdrav život ?</li>
                 </ul>
-                <p class="bold_text">KAKO!!!   RAZMISLI... </p>
+                <p class="text"><span class="bold_text">KAKO!!!   RAZMISLI...</span> </p>
                 <img :src="require('@/assets/img/svg/Questions.svg')" alt="">
-                <p class="bold_text">I ŠTA SADA ?</p>
+                <p class="text"><span class="bold_text">I ŠTA SADA ?</span></p>
                 <div class="text_line"></div>
+                <br>
                 <ul>
                     <li class="text">Sada u svom raspalom telefonu otvori notes
                   u koji ćeš upisati odgovore na sva ova pitanja ali
@@ -95,7 +96,7 @@
       <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/img/svg/Process.svg')" alt="">
         <br>
-        <p class="text bold_text">EVO JEDNOG OD NAČINA DA SE NEŠTO PROMENI? </p>
+        <p class="text"><span class="bold_text">EVO JEDNOG OD NAČINA DA SE NEŠTO PROMENI? </span></p>
         
         <div class="text_line"></div>
         <br>
@@ -105,11 +106,12 @@
           je među <span class="bold_text">"top 3"</span> u svetu, ali uz manjak programera sa iskustvom.</p>
         <p class="text">Oni koji već rade imaju posla preko glave. Neko radi za sebe, neko za domaće, a neko za strane kompanije.
         Jedno je sigurno- ubijaju se od posla, a naravno i <span class="bold_text">dobro zarađuju</span>. </p>
+        <br>
         <img :src="require('@/assets/img/svg/transfer_money.svg')" alt="">
-        <p class="text bold_text">IT sektor drugačije zovu Sektor 21. </p>
+        <p class="text"><span class="bold_text">IT sektor drugačije zovu Sektor 21.</span> </p>
         <p class="text">Pun je poslova koji su proglašeni za zanimanja 21. veka, odatle i ta fraza. Svako normalan teži nekoj 
           životnoj sigurnosti, a ona se najbolje stiče kroz posao, zato je IT sektor trenutno <span class="bold_text">najbolja opcija za budućnost</span>.</p>
-        <p class="text bold_text">Donosi i mnoštvo prilika.</p>
+        <p class="text"><span class="bold_text">Donosi i mnoštvo prilika</span>.</p>
         <p class="text">Poslovnih, ali i duštvenih. U ovoj industriji međuljudska komunikacija je jako bitna, ovde svako svakome pomaže. 
           Učestvovanje u humanitarnim akcijama, raznim izletima u prirodi, team building dešavanja doneće ti <span class="bold_text">nova poznanstva
            i prijateljstva</span>.</p>
@@ -117,7 +119,7 @@
      <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/img/svg/Code_thinking.svg')" alt="">
         <br>
-        <p class="text bold_text">NEMA NESIGURNOSTI NEMA OGRANIČENJA </p>
+        <p class="text"><span class="bold_text">NEMA NESIGURNOSTI NEMA OGRANIČENJA </span></p>
         
         <div class="text_line"></div>
         <br>
@@ -147,12 +149,12 @@
            <br>
            <img :src="require('@/assets/img/svg/proud_coder.svg')" alt=""> 
         <p class="text">Ovi biznisi <span class="bold_text">zaradjuju dok spavaš, a njih učimo u stepu 3, samo da znaš. :) </span></p>
-        <p class="text bold_text">SADA možemo da vidimo i KAKO...</p>
+        <p class="text"><span class="bold_text">SADA možemo da vidimo i KAKO...</span></p>
     </div >
      <div class="card" @mouseleave="changeShow(false)" id="AI1">
           <img :src="require('@/assets/img/svg/coding.svg')" alt=""> 
           <br>
-          <p class="text bold_text">A EVO I KAKO DA TO URADIMO</p>
+          <p class="text"><span class="bold_text">A EVO I KAKO DA TO URADIMO</span></p>
           <div class="text_line"></div>
           <br>
           <p class="text">Sastavili smo na jedno mesto tim IT-evaca i osmislili <span class="bold_text">sistem za učenje programiranja</span>
@@ -181,10 +183,10 @@
     <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/img/svg/Questions.svg')" alt="">
         <br>
-        <p class="text bold_text">PITAŠ SE, PITAŠ SE... </p>
+        <p class="text"><span class="bold_text">PITAŠ SE, PITAŠ SE...</span> </p>
         <div class="text_line"></div>
         <br>
-        <p class="text bold_text">Pitaš se koliko vremena treba ?</p>
+        <p class="text"><span class="bold_text">Pitaš se koliko vremena treba ?</span></p>
         <p class="text">Samo od tvog truda i rada zavisi.  Ako se dobro organizujemo 
           svi imamo <span class="bold_text">sat vremena do tri sata dnevno</span> da izdvojimo za znanje koje će 
           nam doneti život kakav želimo.</p>
@@ -193,13 +195,14 @@
           koje samo zbunjuju.</p>
         <p class="text">Toliko efektivnog učenja dnevno ti je potrebno za jako brz napredak. 
           <span class="bold_text">Minimum sat.</span></p>
+          <br>
           <img :src="require('@/assets/img/svg/To_do_list.svg')" alt="">
-        <p class="text bold_text">Pitaš se da li će biti teško ?</p>
+        <p class="text"><span class="bold_text">Pitaš se da li će biti teško ?</span></p>
         <p class="text">Ne, jer mi znamo koja znanja su ti stvarno potrebna. Pojednostavili smo  
           ti toliko da sve razumeš jer imaš zanimljiv materijal za učenje, a opet za sve što ti možda
            ne bude jasno imaš mentora kom je stvarno bitno da shvatiš jer njegov si mentorski program, 
            a niko ne voli loše programe.</p>
-        <p class="text bold_text">Ma, naučiću sve sam kad je tako lako...</p>
+        <p class="text"><span class="bold_text">Ma, naučiću sve sam kad je tako lako...</span></p>
         <p class="text"><span class="bold_text">Nećeš</span>. Kada učiš sam ne izdvajaš dovoljno vremena, ne znaš odakle da počneš ni šta radiš,
            u jednom trenutku postaće ti naporno jer vidiš da ti ne ide samostalno.</p>
         <p class="text"> Rešili smo ti i taj problem tako što smo sadržaj koji će ti držati pažnju podelili na vise 
@@ -208,7 +211,7 @@
           <img :src="require('@/assets/img/svg/stepping_up.svg')" alt="">
         <p class="text"><span class="bold_text">Kod po kod -  program</span>. I dok shvatiš šta se dešava već si programer spreman za rad, zaradu 
           i skroz neverovatan novi svet u kom napokon osećaš sigurnost. </p>
-        <p class="text bold_text">Veruj nam, <span class="bold_text">MI</span> to odlično znamo.</p>
+        <p class="text"><span class="bold_text">Veruj nam, MI to odlično znamo.</span></p>
     </div >
      <div class="card" @mouseleave="changeShow(false)" id="AI1">
         <img :src="require('@/assets/img/svg/Collaboration.svg')" alt="">
@@ -226,7 +229,7 @@
         </div> -->
         <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="bold_text">Šta mi očekujemo od tebe..</p>
+                <p class="text"><span class="bold_text">Šta mi očekujemo od tebe..</span></p>
                 <ul>
                     <li>da stvarno želiš da naučiš programiranje</li>
                     <li class="text">da se zalažeš za svoje znanje</li>
@@ -244,8 +247,8 @@
                     <li class="text">da praviš <span class="bold_text">velike planove</span> ali da se krećeš <span class="bold_text">malim koracima</span></li>
         
                 </ul>
-                <p class="bold_text">Da li možeš sve ovo ? Naravno da da. Mi smo tu i da te motivišemo 
-                  ako i kada postane teško..</p>
+                <p class="text"><span class="bold_text">Da li možeš sve ovo ? Naravno da da. Mi smo tu i da te motivišemo 
+                  ako i kada postane teško..</span></p>
                   <img :src="require('@/assets/img/svg/Google_docs.svg')" alt="">
 
                 <!-- <div class="mobile">
@@ -257,7 +260,7 @@
         </transition>
           <transition name="slide">
             <div class="extend" v-if="true">
-                <p class="bold_text">Šta ti možeš da očekuješ od nas?</p>
+                <p class="text"><span class="bold_text">Šta ti možeš da očekuješ od nas?</span></p>
                 <ul>
                     <li>Napredak studenta prati se kroz <span class="bold_text">mentorstvo</span>, zanimljive teorijske i praktične testove i vežbe, 
                       kvizove znanja ali i kroz razne druge vidove takmičenja.</li>
@@ -275,18 +278,18 @@
                 </ul>
                 <p class="bold_text"></p>
                 <img :src="require('@/assets/img/svg/multitasking.svg')" alt="">
-                <p class="bold_text">Kako izgleda učenje programiranja sa nama? </p>
+                <p class="text"><span class="bold_text">Kako izgleda učenje programiranja sa nama? </span></p>
                 <div class="text_line"></div>
                 <p class="text">Šta je potrebno da uradiš da sebe pripremiš za život vredan življenja?</p>
                 <p class="text">Imaš tri stepa ispred sebe, a uz pomoć naših mentora prelaziš ih <span class="bold_text">brzo i lako</span>.</p>
-                <p class="bold_text">Kako izgledaju stepovi? </p>  
+                <p class="bold_text"><span class="text">Kako izgledaju stepovi? </span></p>  
             </div>
         </transition>
       </div >
       <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <img :src="require('@/assets/img/svg/To_do_list.svg')" alt="">
                   <br>
-                  <p class="text bold_text">STEP 1</p>
+                  <p class="text"><span class="bold_text">STEP 1</span></p>
                   <div class="text_line"></div>
                   <br>
                   <ul>
@@ -307,7 +310,7 @@
                 <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <img :src="require('@/assets/img/svg/Timeline.svg')" alt="">
                   <br>
-                  <p class="text bold_text">STEP 2</p>
+                  <p class="text"><span class="bold_text">STEP 2</span></p>
                   <div class="text_line"></div>
                   <br>
                   <ul>
@@ -328,7 +331,7 @@
                 <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <img :src="require('@/assets/img/svg/Helpful.svg')" alt="">
                   <br>
-                  <p class="text bold_text">STEP 3</p>
+                  <p class="text"><span class="bold_text">STEP 3</span></p>
                   <div class="text_line"></div>
                   <br>
                   <ul>
@@ -344,7 +347,8 @@
                   </ul>
                   <br>
                   <img :src="require('@/assets/img/svg/static.svg')" alt="">
-                  <p class="text bold_text">Koja znanja ćeš sa nama naučiti :</p>
+                  <br>
+                  <p class="text"><span class="bold_text">Koja znanja ćeš sa nama naučiti :</span></p>
                    <ul>
                      <li class="text">HTML5</li>
                      <li class="text">CSS</li>
@@ -369,7 +373,7 @@
          <div class="card" @mouseleave="changeShow(false)" id="AI1">
                   <img :src="require('@/assets/img/svg/Personal_notebook.svg')" alt="">
                   <br>
-                  <p class="text bold_text">TOP 5 stvari koje postižeš učeći  sa nama!</p>
+                  <p class="text"><span class="bold_text">TOP 5 stvari koje postižeš učeći  sa nama!</span></p>
                   <div class="text_line"></div>
                   <br>
                   <ul>

@@ -105,6 +105,7 @@ export default {
             border-top-right-radius: 50px;
             border-bottom: 4px solid #fdfdfd;
             height: 304px;
+            
 
             @media only screen and (max-width: 768px) {
                 height: 104px;
@@ -125,6 +126,7 @@ export default {
             display: inline-block;
             vertical-align: top;
             padding: 20px;
+            
         }
         h2{
             display: inline-block;
@@ -132,6 +134,7 @@ export default {
             font-family: 'Roboto', sans-serif;
             font-size: 36px;
             font-weight: lighter;
+            color: black;
 
             @media only screen and (max-width: 768px) {
                 font-size: 24px;
@@ -148,6 +151,7 @@ export default {
             font-style: italic;
             font-size: 24px;
             margin-top: 20px;
+            color: white;
         }
         @media only screen and (max-width: 768px) {
             .info {
@@ -181,6 +185,7 @@ export default {
     .body{
         overflow: scroll;
         height: calc(100% - 300px);
+        
         &::-webkit-scrollbar{
             display: none;
         }

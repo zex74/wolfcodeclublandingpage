@@ -169,6 +169,8 @@ export default {
 }
 </script>
 
+// #025373
+
 <style>
 
 html {
@@ -191,11 +193,19 @@ body{
 }
 h1, h2 {
   font-family: 'Roboto', sans-serif;
+  color: #025373;
 }
-p, a, span, h3, li, q, label, input, textarea{
+ a, span, h3, q, label, input, textarea{
   font-family: 'Open Sans Condensed', sans-serif;
   /* font-family: 'Montserat', sans-serif; */
   font-size: 18px;
+  color: #025373;
+}
+p, li{
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Montserat', sans-serif; */
+  font-size: 18px;
+  color: black;
 }
 .button--green {
   display: inline-block;
