@@ -16,7 +16,7 @@ export default {
     }
   },
   head: {
-    title: "WolfCodeClub | Software development club width private members",
+    title: "WolfCodeClub | Software development club with private members",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -36,12 +36,11 @@ export default {
       { name: "theme-color", content: "#ffffff" },
       {
         property: "og:title",
-        content: "WieQuee | Software development company"
+        content: "WolfCodeClub | Software development company"
       },
       {
         property: "og:description",
-        content:
-          "WolfCodeClub | Software development club width private members"
+        content: "WolfCodeClub | Software development club with private members"
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "wolfcodeclub.netlify.app" }
@@ -152,7 +151,20 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["nuxt-webfontloader"],
+  modules: [
+    "nuxt-webfontloader",
+    // With options
+    [
+      "nuxt-facebook-pixel-module",
+      {
+        /* module options */
+        track: "PageView",
+        pixelId: "312140806930929",
+        autoPageView: true,
+        disabled: false
+      }
+    ]
+  ],
   /*
    ** Build configuration
    */
