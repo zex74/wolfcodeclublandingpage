@@ -19,9 +19,9 @@ export default {
         return {
             nav: [
                 {name: 'Home', short: 'thome'},
-                {name: 'Šta nudimo', short: 'WeDo'},
-                {name: 'Ko smo mi', short: 'about'},
-                {name: 'Prijava', short: 'portfolio'},
+                {name: 'What We Do', short: 'WeDo'},
+                {name: 'About', short: 'about'},
+                {name: 'Sign Up', short: 'portfolio'},
             ]
         }
     },
