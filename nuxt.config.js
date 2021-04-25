@@ -159,7 +159,7 @@ export default {
       {
         /* module options */
         track: "PageView",
-        pixelId: "312140806930929",
+        pixelId: "166178998727580",
         autoPageView: true,
         disabled: false
       }
