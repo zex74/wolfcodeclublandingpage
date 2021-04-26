@@ -391,7 +391,7 @@
                     <p class="text"><span class="text bold_text">MAX 2-3 godine</span> da sve što si napisao bude rešeno... </p>
                     <p class="text">Potrudi se, budi sa nama <span class="text bold_text">4-6 meseci</span>.</p>
                     <p class="text">Posle toga radi, stiči iskustvo i zarađuj nekih godinu 
-                      dana i sada si u <span class="text bold_text">STEPU 4...</span> Njega kreiraš sam... <span class="text bold_text">Good Lock :)</span></p>
+                      dana i sada si u <span class="text bold_text">STEPU 4...</span> Njega kreiraš sam... <span class="text bold_text">Good Luck :)</span></p>
                     <p class="text"></p>
                 
                 </div>

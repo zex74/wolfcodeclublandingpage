@@ -14,6 +14,9 @@
     </div>
 </template>
 <script>
+
+// Life without dreams is not life. Dream without goals is just a dream
+
 import People from './People'
 export default {
     name: 'AboutUs',
@@ -24,7 +27,7 @@ export default {
                   img: 'zex.png',
                     name: 'Željko Lazarević',
                     title: 'Founder & Software developer',
-                    moto: 'Life without dreams is not life... Dream without goals is just a dream',
+                    moto: 'Life without dreams is not life. Dream without goals is just a dream',
                     birthday: '1974-07-09',
                     about: 'I am founder of WolfCodeClub & completely self-taught, with a lot left to learn–and in teaching myself tech skills, I uncovered a passion for teaching others. Today, I’m driven by the goal of making education affordable and accessible to all.',
                     skills: ['js', 'react', 'vue', 'nuxt', 'node', 'express', 'sass', 'mysql']

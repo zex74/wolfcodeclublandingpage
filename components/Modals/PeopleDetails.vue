@@ -149,7 +149,7 @@ export default {
         q{
             display: inline-block;
             font-style: italic;
-            font-size: 24px;
+            font-size: 22px;
             margin-top: 20px;
             color: white;
         }
