@@ -43,7 +43,11 @@ export default {
         content: "WolfCodeClub | Software development club with private members"
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "wolfcodeclub.netlify.app" }
+      { property: "og:url", content: "wolfcodeclub.netlify.app" },
+      {
+        name: "facebook-domain-verification",
+        content: "ihpqxp0pssy57fvdc60rn6cujkynb7"
+      }
       // { property: 'og:image', content: 'https://wiequee.com/og.png' },
     ],
     link: [
