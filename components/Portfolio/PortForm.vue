@@ -15,10 +15,13 @@
           <p class="prijava_text">Nakon prijave poslaćemo Vam mail sa daljim uputstvima za pristup platformi</p>
           <br>
           <p class="prijava_text">Mentorstvo i učenje započinje učlanjenjem u naš klub</p>
-          <p class="prijava_text">Mesečna članarina kluba je <span class="price">5000 dinara</span> </p>
+          <p class="prijava_text">Mesečna članarina kluba je <span class="price">3.000 dinara</span> </p>
           <br>
-          <p class="prijava_text">Za studente:</p>
-          <p class="prijava_text">Mesečna članarina kluba je <span class="price">3000 dinara</span></p>
+          <p class="prijava_text">Ako niste sigurni da li je ovo za vas, iskoristite priliku !!!</p>
+          <br>
+          <p class="prijava_title"><span class="price">7 dana besplatnog pristupa</span> platformi, započni učenje i vidi kako ti ide !!!</p>
+          
+          <br>
           <br>
           <contact-form />
         </div>
@@ -110,7 +113,7 @@ export default {
   color: #fff;
 }
 .price{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #F29B30;
 }
 .portfolio-form {
