@@ -16,7 +16,7 @@ export default {
     }
   },
   head: {
-    title: "WolfCodeClub | Software development club with private members",
+    title: "WolfCodeClub",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -28,8 +28,7 @@ export default {
       },
       {
         name: "keywords",
-        content:
-          "Kurs programiranja, It kursevi, online kursevi programiranja, HTML za pocetnike, CSS za pocetnike, javascript za pocetnike, html i css za pocetnike"
+        content: "wolfcodeclub"
       },
       { name: "msapplication-TileColor", content: "#ffffff" },
       { name: "msapplication-TileImage", content: "/ms-icon-144x144.png" },

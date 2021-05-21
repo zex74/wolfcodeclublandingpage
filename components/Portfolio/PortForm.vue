@@ -12,7 +12,7 @@
         <div class="prijava">
           <p class="prijava_title">U mogućnosti smo da primimo samo određen broj studenata!</p>
           <br>
-          <p class="prijava_text">Nakon prijave poslaćemo Vam mail sa daljim uputstvima za pristup platformi</p>
+          <p class="prijava_text">Nakon prijave poslaćemo vam mail sa daljim uputstvima za pristup platformi</p>
           <br>
           <p class="prijava_text">Mentorstvo i učenje započinje učlanjenjem u naš klub</p>
           <p class="prijava_text">Mesečna članarina kluba je <span class="price">3.000 dinara</span> </p>
